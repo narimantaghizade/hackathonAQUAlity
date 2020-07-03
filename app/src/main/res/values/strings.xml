@@ -5,4 +5,5 @@
     <string name="ayliq_istifad">Aylıq istifadə:</string>
     <string name="toplam_istifad">Toplam istifadə:</string>
     <string name="m_bl">Məbləğ:</string>
+    <string name="underline"> <u>Qeydiyyat</u></string>
 </resources>
