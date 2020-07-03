@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="400dp" />
+
+    <TextView
+        android:id="@+id/text_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_view"
+        android:layout_margin="10dp"
+        android:layout_alignParentEnd="true"
+        android:maxLines="5"
+        android:text=""
+        android:textSize="26sp" />
+    <TextView
+        android:id="@+id/text_display2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_view"
+        android:layout_margin="10dp"
+        android:layout_alignParentStart="true"
+        android:maxLines="5"
+        android:text="@string/ayliq_istifad"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/text_display3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_display"
+        android:layout_margin="10dp"
+        android:layout_alignParentEnd="true"
+        android:maxLines="5"
+        android:text=""
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/text_display4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_display2"
+        android:layout_margin="10dp"
+        android:layout_alignParentStart="true"
+        android:maxLines="5"
+        android:text="@string/toplam_istifad"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/text_display5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_display3"
+        android:layout_margin="10dp"
+        android:layout_alignParentEnd="true"
+        android:maxLines="5"
+        android:text=""
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/text_display6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_display4"
+        android:layout_margin="10dp"
+        android:layout_alignParentStart="true"
+        android:maxLines="5"
+        android:text="@string/m_bl"
+        android:textSize="26sp" />
+
+
+    <Button
+        android:id="@+id/capture_image_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/detect_text_image_btn"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/holo_green_dark"
+        android:text="@string/capture_image"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/detect_text_image_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/holo_blue_dark"
+        android:text="@string/detect_text"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="17sp" />
+
+</RelativeLayout>

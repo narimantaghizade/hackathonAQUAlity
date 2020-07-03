@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AQUAlity</string>
+    <string name="capture_image">Sayğacı çəkin</string>
+    <string name="detect_text">Hesablayın</string>
+    <string name="ayliq_istifad">Aylıq istifadə:</string>
+    <string name="toplam_istifad">Toplam istifadə:</string>
+    <string name="m_bl">Məbləğ:</string>
+</resources>

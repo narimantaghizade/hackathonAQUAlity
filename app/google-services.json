@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1035668090034",
+    "firebase_url": "https://aquality-3fc3c.firebaseio.com",
+    "project_id": "aquality-3fc3c",
+    "storage_bucket": "aquality-3fc3c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1035668090034:android:1262c93d36d1887a7c6dab",
+        "android_client_info": {
+          "package_name": "com.example.aquality"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1035668090034-ds0429h7jhlggbkgisvp51tl5r3muj6l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZln-wZddQj__zuYt0jwCu7J1y79_cukU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1035668090034-ds0429h7jhlggbkgisvp51tl5r3muj6l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
