@@ -45,6 +45,7 @@
         android:text="Giriş"
         android:textColor="@android:color/white"
         android:textSize="20sp"
+        android:onClick="launchMainActivity"
         android:textAllCaps="false"/>
     <LinearLayout
         android:layout_below="@+id/login_in"
