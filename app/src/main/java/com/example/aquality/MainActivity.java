@@ -14,6 +14,7 @@ import android.widget.TextView;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.braintreepayments.cardform.view.CardForm;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.ml.vision.FirebaseVision;
@@ -27,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
     private Button captureImageBtn, detectTextBtn;
     private ImageView imageView;
     private TextView text_disp, text_disp3, text_disp5;
-    int oldValue = 0;
+    double oldValue = 0;
     Bitmap imageBitmap;
     static final int REQUEST_IMAGE_CAPTURE = 1;
 
@@ -58,6 +59,7 @@ public class MainActivity extends AppCompatActivity {
                 detectTextFromImage();
             }
         });
+
 
     }
 
@@ -107,7 +109,7 @@ public class MainActivity extends AppCompatActivity {
         else{
          for (FirebaseVisionText.Block block: firebaseVisionText.getBlocks()){
              String text = block.getText();
-             int num = Integer.parseInt(text);
+             double num = Integer.parseInt(text);
              double sub = num - oldValue;
              String text1= String.valueOf(sub);
              String text2= String.valueOf(num);
@@ -118,5 +120,11 @@ public class MainActivity extends AppCompatActivity {
              text_disp5.setText(text3+" AZN");
             }
         }
+    }
+
+
+    public void paymentAct(View view) {
+        Intent intent = new Intent(this, Payment.class);
+        startActivity(intent);
     }
 }
