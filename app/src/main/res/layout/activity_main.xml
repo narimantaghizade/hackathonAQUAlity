@@ -81,11 +81,14 @@
 
     <Button
         android:id="@+id/capture_image_btn"
-        android:layout_width="match_parent"
+        android:layout_width="128dp"
         android:layout_height="wrap_content"
-        android:layout_above="@id/detect_text_image_btn"
-        android:layout_marginBottom="10dp"
+        android:layout_below="@id/text_display6"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="31dp"
         android:background="@android:color/holo_green_dark"
+        android:padding="10dp"
         android:text="@string/capture_image"
         android:textAllCaps="false"
         android:textColor="@android:color/white"
@@ -93,11 +96,29 @@
 
     <Button
         android:id="@+id/detect_text_image_btn"
-        android:layout_width="match_parent"
+        android:layout_width="128dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="21dp"
         android:background="@android:color/holo_blue_dark"
+        android:padding="10dp"
         android:text="@string/detect_text"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/pay_button"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="21dp"
+        android:layout_toRightOf="@id/detect_text_image_btn"
+        android:background="@android:color/holo_blue_dark"
+        android:padding="10dp"
+        android:text="ödə"
         android:textAllCaps="false"
         android:textColor="@android:color/white"
         android:textSize="17sp" />
